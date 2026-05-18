@@ -1,0 +1,22 @@
+[package]
+name = "nm-wifi-gui"
+version = "0.1.0"
+edition = "2021"
+description = "Lightweight GTK4/libadwaita NetworkManager WiFi GUI for Linux"
+license = "MIT"
+authors = ["Jon"]
+repository = "https://github.com/Santoxjon/nm-wifi-gui"
+homepage = "https://github.com/Santoxjon/nm-wifi-gui"
+keywords = ["wifi", "network", "networkmanager", "gtk", "gui"]
+categories = ["gui", "network-programming"]
+
+[[bin]]
+name = "nm-wifi-gui"
+path = "src/main.rs"
+
+[dependencies]
+adw = { package = "libadwaita", version = "0.7" }
+gtk = { package = "gtk4", version = "0.9" }
+glib = "0.20"
+anyhow = "1.0"
+thiserror = "1.0"

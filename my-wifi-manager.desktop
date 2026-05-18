@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=nm-wifi-gui
+Comment=Lightweight WiFi manager for Linux
+Exec=nm-wifi-gui
+Icon=network-wireless
+Categories=Network;Utility;
+Terminal=false

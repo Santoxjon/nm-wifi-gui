@@ -89,10 +89,10 @@ Or use the helper script:
 Add to `~/.config/hypr/hyprland.conf`:
 
 ```ini
-windowrulev2 = float,class:^(com\.jon\.mywifimanager)$
-windowrulev2 = center,class:^(com\.jon\.mywifimanager)$
-windowrulev2 = size 420 560,class:^(com\.jon\.mywifimanager)$
-windowrulev2 = pin,class:^(com\.jon\.mywifimanager)$
+windowrule = float, class:^(com\.jon\.nmwifigui)$
+windowrule = center, class:^(com\.jon\.nmwifigui)$
+windowrule = size 420 560, class:^(com\.jon\.nmwifigui)$
+windowrule = pin, class:^(com\.jon\.nmwifigui)$
 ```
 
 Reload Hyprland config:

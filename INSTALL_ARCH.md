@@ -60,10 +60,10 @@ Or find it in your application menu.
 For Hyprland users, add these window rules to `~/.config/hypr/hyprland.conf`:
 
 ```ini
-windowrulev2 = float,class:^(com\.jon\.nmwifigui)$
-windowrulev2 = center,class:^(com\.jon\.nmwifigui)$
-windowrulev2 = size 420 560,class:^(com\.jon\.nmwifigui)$
-windowrulev2 = pin,class:^(com\.jon\.nmwifigui)$
+windowrule = float, class:^(com\.jon\.nmwifigui)$
+windowrule = center, class:^(com\.jon\.nmwifigui)$
+windowrule = size 420 560, class:^(com\.jon\.nmwifigui)$
+windowrule = pin, class:^(com\.jon\.nmwifigui)$
 ```
 
 Or use the helper script:

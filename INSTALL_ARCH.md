@@ -23,6 +23,8 @@ cd nm-wifi-gui
 makepkg -si
 ```
 
+The PKGBUILD currently tracks the `main` branch so it works before the first release tag exists.
+
 The `-s` flag builds with dependencies, and `-i` installs the package.
 
 ### Option 2: Direct Installation from Cargo

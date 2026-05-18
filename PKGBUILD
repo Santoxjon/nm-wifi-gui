@@ -8,12 +8,12 @@ url="https://github.com/Santoxjon/nm-wifi-gui"
 license=('MIT')
 depends=('gtk4' 'libadwaita' 'networkmanager' 'glib2')
 makedepends=('rust' 'cargo' 'pkgconf' 'gcc')
-source=("git+https://github.com/Santoxjon/nm-wifi-gui.git#tag=v${pkgver}")
+source=("git+https://github.com/Santoxjon/nm-wifi-gui.git#branch=main")
 sha256sums=('SKIP')
 
 build() {
   cd nm-wifi-gui
-  RUSTFLAGS="-C target-cpu=native" cargo build --release --locked
+  cargo build --release
 }
 
 package() {

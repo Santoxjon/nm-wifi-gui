@@ -19,7 +19,7 @@ Update the PKGBUILD file with your actual repository URL:
 ```bash
 # Edit PKGBUILD and update the url and source lines:
 # url="https://github.com/Santoxjon/nm-wifi-gui"
-# source=("git+https://github.com/Santoxjon/nm-wifi-gui.git#tag=v${pkgver}")
+# source=("git+https://github.com/Santoxjon/nm-wifi-gui.git#branch=main")
 ```
 
 Then push to GitHub:
@@ -32,7 +32,7 @@ git remote add origin https://github.com/Santoxjon/nm-wifi-gui.git
 git push -u origin main
 ```
 
-Create a release tag:
+Create a release tag later, once you want versioned releases:
 ```bash
 git tag v0.1.0
 git push origin v0.1.0

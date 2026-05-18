@@ -14,7 +14,7 @@ pkgbase = nm-wifi-gui
 	depends = libadwaita
 	depends = networkmanager
 	depends = glib2
-	source = git+https://github.com/Santoxjon/nm-wifi-gui.git#branch=main
+	source = nm-wifi-gui-0.1.0.tar.gz::https://github.com/Santoxjon/nm-wifi-gui/archive/refs/tags/v0.1.0.tar.gz
 	sha256sums = SKIP
 
 pkgname = nm-wifi-gui
